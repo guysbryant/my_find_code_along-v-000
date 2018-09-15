@@ -10,5 +10,6 @@ def my_find(collection)
   y = 0
   while y < return_array.length
     return collection[y] if return_array[y] == true
+    y += 1
   end
 end
